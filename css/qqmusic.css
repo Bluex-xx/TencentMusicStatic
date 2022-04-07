@@ -1,0 +1,692 @@
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.head
+{
+    height: 142px;
+    background: #fff;
+}
+.head .me
+{
+   width: 1250px;
+    height: 142px;
+   margin: 0 auto;
+}
+.head .me .me2
+{
+    height:90px;
+    border-bottom: 1px #eff4fa solid;
+    margin-left: 10px;
+}
+.logo
+{
+    float: left;
+    margin-top:12px ;
+}
+
+.nav
+{
+    width: 480px;
+    float: left;
+    margin-left: 32px;
+}
+.nav li
+{
+    line-height: 85px;
+    float: left;
+    font-size: 10px;
+    padding: 1px 15px;
+}
+.nav li:first-child
+{
+
+    background: #31c27c;
+}
+.nav a
+{
+    color: black;
+    font-size: 20px;
+}
+.nav a:hover
+{
+    color: #31c27c;
+    text-decoration: none;
+}
+.nav li:first-child a
+{
+
+    color: #eff4fa;
+}
+
+.search
+{
+    float: left;
+    margin-left: 18px;
+    width: 210px;
+    height: 38px;
+    border-color: #c9c9c9;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 24px;
+}
+.search input
+{
+  padding: 10px;
+    outline: none;
+    border-width: 0;
+}
+.searchbtn
+{
+    background: #fff;
+    border-width: 0;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.searchbtn:hover
+{
+    color: #31c27c;
+}
+.search #search
+{
+    padding-left: 10px;
+    font-size: 13px;
+}
+.pic
+{
+    float: left;
+    margin:23px;
+}
+.pic1
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.button
+{
+    float: left;
+    border-radius: 2px;
+    width:122px ;
+    height: 38px;
+    background: #31c27c;
+    line-height: 38px;
+    margin-top:25px ;
+
+}
+.button .czs-angle-up-l,.button2 .czs-angle-up-l
+{
+    display: none;
+}
+.button:hover .czs-angle-up-l,.button2:hover .czs-angle-up-l
+{
+    display: inline;
+}
+.button:hover .czs-angle-down-l,.button2:hover .czs-angle-down-l
+{
+    display: none;
+}
+.button .button
+{
+    margin-top:0;
+    background: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1px;
+    border-color: #c9c9c9;
+    border-top:none;
+    display: none;
+    width:120px;
+}
+.button:hover .button
+{
+    display: block;
+}
+.button .button:hover
+{
+    margin-top:0;
+    background: #31c27c;
+}
+.button .button:hover a
+{
+    color: #ffffff;
+}
+.button .button a
+{
+ color: black;
+}
+.button a
+{
+    color: #eff4fa;
+    margin-left: 33px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.button:hover a
+{
+    text-decoration: none;
+}
+.button2
+{
+    float: left;
+    border-radius: 3px;
+    border-color: #e5e7ea;
+    border-style: solid;
+    border-width: 1px;
+    width:83px ;
+    height: 38px;
+    line-height: 38px;
+    margin-top:23px ;
+    margin-left: 12px;
+
+}
+.button2 a
+{
+    color: #000000;
+    margin-left: 28px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.button2:hover
+{
+    background: #31c27c;
+}
+.button2:hover > a
+{
+    color: #eff4fa;
+    text-decoration: none;
+}
+.button2:hover .button2-li
+{
+    display: block;
+}
+.button2-li
+{
+    border-radius: 1px;
+    border-style: solid;
+    border-color: #c9c9c9;
+    border-width: 1px;
+    display: none;
+    border-top:none ;
+    background:#ffffff;
+}
+.button2-li:hover
+{
+   background: #31c27c;
+}
+.button2-li:hover a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+.toptip
+{
+    height:160px;
+    width: 154px;
+    box-shadow:0 0 5px rgba(0,0,0,.3);
+    border-radius: 5px;
+    position: absolute;
+    top: 68px;
+    display: none;
+    background: #ffffff;
+    z-index: 9999999;
+}
+.nav li:hover .toptip
+{
+    display: block;
+}
+.toptip p:first-child
+{
+    padding-top: 6px;
+}
+.toptip p
+{
+    width: 130px;
+    margin: 0 0 0 16px;
+    padding: 2px 1px;
+    line-height: 32px;
+
+}
+.toptip p i
+{
+    color: #31c27c;
+}
+.toptipbtn
+{
+
+    border-radius: 10px;
+    margin-left: 9px;
+}
+.toptipbtn a
+{
+    display: block;
+    border-radius: 10px;
+    background: #31c27c;
+    color: #ffffff;
+    width: 135px;
+    font-size: 6px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 5px;
+}
+.toptipbtn a:hover
+{
+    color: #ffffff;
+}
+.me1{
+    width: 1250px;
+    height: 52px;
+    background: #fff;
+}
+.me1 .topul
+{
+    margin-left: 20%;
+}
+.me1 .topli
+{
+    float: left;
+    line-height: 52px;
+    padding: 0 22px;
+}
+.me1 .topli a
+{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+.me1 .topli:hover a
+{
+    color: #31c27c;
+}
+.main
+{
+    width: 100%;
+    height: 532px;
+    background:#f3f3f3;
+    position: relative;
+}
+.mainwrap
+{
+    height: 532px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.maintitle
+{
+    display: inline-block;
+    text-align: center;
+    width: 1200px;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 50px 0 24px;
+}
+.mainsection
+{
+    text-align: center;
+}
+.mainsection a
+{
+    color: black;
+    font-size: 15px;
+    padding: 14px;
+}
+.mainsection a:first-child
+{
+    color: #31c27c;
+}
+.mainsection a:hover
+{
+     color: #31c27c;
+}
+.mainimg
+{
+    width: 1200px;
+    height: 310px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 25px;
+    position: absolute;
+    left: 0;
+    transition: 0.6s all;
+}
+.imgsingle
+{
+    width: 224px;
+    height: 283px;
+    margin-right: 16px;
+    color: #7f7f7f;
+}
+.imgxx
+{
+    overflow: hidden;
+    height: 224px;
+    width: 224px;
+    background: black;
+    position: relative;
+}
+.musicbutton
+{
+    position: absolute;
+    top: 36%;
+    left:34%;
+    display: none;
+    width: 20px;
+}
+.imgsingle img
+{
+    width: 100%;
+    height: 100%;
+    transition: all 0.6s;
+    cursor: pointer;
+    overflow: hidden;
+}
+.imgsingle img:hover
+{
+    transform: scale(1.1);
+    opacity:0.8;
+}
+.imgsingle img:hover+ .musicbutton
+{
+    display: block;
+    transform: scale(1.1);
+    opacity:0.8;
+    width: 70px;
+}
+.imgsingle > a
+{
+    display: block;
+    color: black;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+.imgsingle > a:hover
+{
+    color: #31c27c;
+}
+.navli
+{
+    position: absolute;
+    bottom: 6%;
+    left: 47.5%;
+}
+.navli li
+{
+    width: 8px;
+    height: 8px;
+    background: rgba(225,225,225,1);
+    border-radius: 50%;
+    float: left;
+    margin: 0 10px;
+}
+.navli li:hover
+{
+    background: #7a7a7a;
+}
+.mainleft
+{
+    width: 60px;
+    height: 100px;
+    position: absolute;
+    top: 38%;
+    left: -60px;
+    transition:all 0.5s;
+}
+.left
+{
+    height: 100%;
+    width: 100%;
+    background: #e5e7ea;
+    font-size: 30px;
+    border: none;
+}
+.left:hover,.right:hover
+{
+    background: #dcdfe3;
+}
+.mainright
+{
+    width: 60px;
+    height: 100px;
+    position: absolute;
+    right: -60px;
+    top:38%;
+    transition:all 0.5s;
+}
+.right
+{
+    height: 100%;
+    width: 100%;
+    background: #e5e7ea;
+    font-size: 30px;
+    border: none;
+}
+.main:hover .mainright,.mains:hover .mainright
+{
+    right: 0;
+    transition:all 0.5s;
+}
+.main:hover .mainleft,.mains:hover .mainleft
+{
+    left: 0;
+    transition:all 0.5s;
+}
+.mains
+{
+    width: 100%;
+    height: 566px;
+    background: #f9f9f9;
+    position: relative;
+}
+.mainswrap
+{
+
+    height: 566px;
+    width: 1230px;
+    margin: 0 auto;
+}
+.mainstitle
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 40px;
+}
+.mainssection
+{
+    text-align: center;
+    margin-top: 20px;
+}
+.mainssection a
+{
+    color: black;
+    font-size: 15px;
+    padding: 20px;
+
+}
+.mainssection a:first-child,
+.mainssection a:hover
+{
+    color: #31c27c;
+}
+.startbtn
+{
+    background: #f9f9f9;
+    border: 1px solid #c9c9c9;
+    width: 123px;
+    height: 38px;
+    position: absolute;
+    top:17%;
+    border-radius: 2px;
+}
+.startbtn:hover
+{
+    background:#f3f3f3;
+}
+.mainsmusic
+{
+    width: 1230px;
+    height: 333px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.musicsingle
+{
+    width: 410px;
+    height: 100px;
+    position: relative;
+    margin-bottom: 13px;
+    border-bottom: 1px solid #e5e7ea;
+}
+.musicimg
+{
+    height: 86px;
+    width: 86px;
+    overflow: hidden;
+    background: black;
+}
+.musicimg img
+{
+    width: 100%;
+    height: 100%;
+    transition: all 0.6s;
+    cursor: pointer;
+    overflow: hidden;
+    float: left;
+}
+.musicimg img:hover
+{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.musicsingle > a
+{
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    margin-top: 24px;
+    font-size: 14px;
+}
+.musicsingle > a:hover
+{
+    color: #31c27c;
+}
+.maker
+{
+    color: #8f8f8f;
+    position: absolute;
+    top:0;
+    left: 100px;
+    margin-top: 40px;
+}
+.time
+{
+    color: #9f9f9f;
+    position: absolute;
+    top:0;
+    right: 20px;
+    margin-top:33px;
+}
+.footwrapper
+{
+    width: 100%;
+    height: 643px;
+    background:#333333;
+    position: relative;
+}
+.footinner
+{
+    height: 512px;
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap:wrap;
+}
+.footbox
+{
+    width:380px ;
+    height: 250px;
+    margin-left: 53px;
+}
+.footbox a
+{
+    color:#999;
+    font-size: 14px;
+}
+.footbox .icon i
+{
+    color: #7f7f7f;
+    display: block;
+    font-size: 45px;
+    padding-right:50px ;
+    padding-bottom: 15px;
+}
+.foottip
+{
+    color: #999;
+    font-size: 15px;
+    margin-top: 80px;
+    font-weight: 600;
+}
+.icon
+{
+    float: left;
+    margin-top: 40px;
+}
+.icon1
+{
+    float: left;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.icon1:hover a
+{
+    text-decoration: none;
+    color: #31c27c;
+}
+.footbox .icon i:hover
+{
+    color: #31c27c;
+}
+.icon a:hover
+{
+    text-decoration: none;
+    color:#31c27c ;
+}
+.footlink
+{
+    margin-top: 20px;
+}
+.footstep
+{
+    height: 132px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.footstep p
+{
+    text-align: center;
+    display: block;
+    height: 10px;
+    margin-top: 20px;
+    color: #7f7f7f;
+    font-size: 11px;
+}
+.footstep a
+{
+    color: #7f7f7f;
+    font-size: 11px;
+    margin-right: 3px;
+}
+.footstep a:hover
+{
+    color: #31c27c;
+    text-decoration: none;
+}
